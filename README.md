@@ -25,3 +25,17 @@ dotnet new sln
 ```zsh
 dotnet new webapi -n API
 ```
+
+## Using cli to add or put API projects in the solution file
+
+- check available options
+
+```zsh
+dotnet sln -h
+```
+
+- add API project in solution using cli
+
+```zsh
+dotnet sln add API
+```
