@@ -39,3 +39,9 @@ dotnet sln -h
 ```zsh
 dotnet sln add API
 ```
+
+- list available projects in the solution
+
+```zsh
+dotnet sln list
+```
